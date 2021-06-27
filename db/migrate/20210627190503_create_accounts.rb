@@ -3,7 +3,7 @@ class CreateAccounts < ActiveRecord::Migration[6.1]
     create_table :accounts do |t|
       t.belongs_to :user, null: false, foreign_key: true
       t.string :name
-      t.string :type
+      t.string :account_type
       t.integer :account_number
       t.integer :routing_number
       t.integer :balance
