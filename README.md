@@ -35,6 +35,7 @@ Things you may want to cover:
 -- state
 -- zip
 -- social
+-- Phone number
 -- is_admin false
 
 // Account
