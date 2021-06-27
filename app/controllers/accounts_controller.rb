@@ -10,7 +10,7 @@ class AccountsController < ApplicationController
 
   # GET /accounts/1
   def show
-    render json: @account, include: [user:]
+    render json: @account, include: [:user]
   end
 
   # POST /accounts
