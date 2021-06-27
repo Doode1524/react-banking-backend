@@ -23,3 +23,35 @@ Things you may want to cover:
 
 * ...
 # react-banking-backend
+
+// User
+-- has many accounts
+-- first name
+-- last name
+-- email
+-- password
+-- address
+-- city
+-- state
+-- zip
+-- social
+-- is_admin false
+
+// Account
+-- belongs to user
+-- name
+-- type
+-- number
+-- routing number
+-- balance
+
+
+// Admin
+-- can create user
+-- can add acounts
+-- can edit users
+-- can edit accounts
+-- can delete accounts
+-- can delete users
+-- is_admin true
+-- has all user attributes
