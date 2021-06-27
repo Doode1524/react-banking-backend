@@ -5,12 +5,12 @@ class AccountsController < ApplicationController
   def index
     @accounts = Account.all
 
-    render json: @accounts
+    render json: @accounts, include: [:user]
   end
 
   # GET /accounts/1
   def show
-    render json: @account
+    render json: @account, include: [user:]
   end
 
   # POST /accounts
